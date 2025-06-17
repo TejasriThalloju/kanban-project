@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kanban-config
+data:
+  dbHost: mongodb://mongo-service:27017/kanban
+
